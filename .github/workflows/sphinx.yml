@@ -24,7 +24,7 @@ jobs:
       run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
     - name: Sphinx build
       run: |
-        eval "$(micromamba shell hook --shell )"
+        eval "$(micromamba shell hook --shell bash)"
         micromamba activate
         sphinx-build -b html docs _build
     - uses: actions/upload-pages-artifact@v3.0.1
