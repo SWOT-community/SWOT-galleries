@@ -18,6 +18,7 @@ jobs:
     runs-on: ubuntu-24.04
     container:
       image: mambaorg/micromamba
+      options: --user root
     steps:
     - uses: actions/checkout@v1
     - name: Install dependencies dependencies
@@ -27,9 +28,6 @@ jobs:
       run: |
         eval "$(micromamba shell hook --shell bash)"
         micromamba activate
-        pwd
-        cd ${GITHUB_WORKSPACE}
-        pwd
         sphinx-build -b html docs _build
     - uses: actions/upload-pages-artifact@v3.0.1
       with:
