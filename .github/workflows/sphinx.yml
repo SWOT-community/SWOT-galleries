@@ -16,12 +16,10 @@ permissions:
 jobs:
   docs:
     runs-on: ubuntu-24.04
+    container:
+      image: python3.12
     steps:
     - uses: actions/checkout@v1
-    - name: Install gcc
-      run: |
-        sudo apt-get update -y
-        sudo apt-get install -y gcc
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
