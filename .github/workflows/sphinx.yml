@@ -23,6 +23,7 @@ jobs:
     - name: Install dependencies dependencies
       run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
     - name: Sphinx build
+      shell: bash
       run: |
         micromamba shell hook --shell bash
         micromamba activate
