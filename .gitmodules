@@ -1,0 +1,3 @@
+[submodule "CNES-AVISO"]
+	path = CNES-AVISO
+	url = git@github.com:SWOT-community/CNES-AVISO.git
