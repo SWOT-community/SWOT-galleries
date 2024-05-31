@@ -18,10 +18,11 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v1
+    - name: Install xmllint
+      run: sudo apt-get update -y && apt-get install -y gcc
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
-        pre-build-command: "apt-get update -y && apt-get install -y gcc"
     - uses: actions/upload-pages-artifact@v3.0.1
       with:
         name: github-pages
