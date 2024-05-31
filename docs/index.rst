@@ -17,10 +17,10 @@ Welcome to SWOT Gallery's documentation!
    auto/dummy/index
 
 .. toctree::
-   :caption: CNES-AVISO
+   :caption: Galleries
    :maxdepth: 1
    
-    cnes
+   cnes
 
 Indices and tables
 ==================
