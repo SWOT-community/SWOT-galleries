@@ -8,4 +8,4 @@ pandoc
 xarray
 netCDF4
 matplotlib
-cartopy==0.23.0
+cartopy==0.21.1
