@@ -1,5 +1,6 @@
 numpy
 nbsphinx
+sphinx>=6
 sphinx-gallery
 #xarray
 #netCDF4
