@@ -10,6 +10,11 @@ Welcome to SWOT Gallery's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+.. toctree::
+      :caption: CNES-AVISO
+      :maxdepth: 2
+      
+   dummy/index
 
 
 Indices and tables
