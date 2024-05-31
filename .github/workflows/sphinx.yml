@@ -19,7 +19,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install gcc
-      run: apt-get update -y && apt-get install -y gcc
+      run: |
+        apt-get update -y
+        apt-get install -y gcc
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
