@@ -15,6 +15,8 @@ release = '0.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    'nbsphinx',
+    'sphinx.ext.mathjax',
     'sphinx_gallery.gen_gallery',
 ]
 

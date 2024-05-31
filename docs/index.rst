@@ -11,11 +11,16 @@ Welcome to SWOT Gallery's documentation!
    :caption: Contents:
 
 .. toctree::
-      :caption: CNES-AVISO
-      :maxdepth: 2
+   :caption: Python scripts test
+   :maxdepth: 2
       
    auto/dummy/index
 
+.. toctree::
+   :caption: CNES-AVISO
+   :maxdepth: 2
+   
+   CNES-AVISO/ex_swot_l3_startup_aviso_ftp.ipynb
 
 Indices and tables
 ==================
