@@ -27,6 +27,7 @@ jobs:
       run: |
         eval "$(micromamba shell hook --shell bash)"
         micromamba activate
+        cd ${GITHUB_WORKSPACE}
         sphinx-build -b html docs _build
     - uses: actions/upload-pages-artifact@v3.0.1
       with:
