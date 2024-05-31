@@ -21,9 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install APT dependencies
-      run: |
-        sudo apt-get upgrade -y
-        sudo apt-get install -y pandoc
+      run: apt-get upgrade -y && apt-get install -y pandoc
     - name: Install Python dependencies
       run: pip install -r docs/requirements.txt
     - name: Sphinx build
