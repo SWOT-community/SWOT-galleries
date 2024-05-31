@@ -32,7 +32,7 @@ jobs:
     - uses: actions/upload-pages-artifact@v3.0.1
       with:
         name: github-pages
-        path: _build/html
+        path: _build
 
   # Deployment job
   deploy:
