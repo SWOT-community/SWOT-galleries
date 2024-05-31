@@ -9,3 +9,4 @@ xarray
 netCDF4
 matplotlib
 cartopy==0.23.0
+sphinx_rtd_theme
