@@ -21,7 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install dependencies dependencies
-      run: mamba install -y --file docs/requirements.txt
+      run: micromamba install -y --file docs/requirements.txt
     - name: Sphinx build
       run: "sphinx-build -b html docs _build"
     - uses: actions/upload-pages-artifact@v3.0.1
