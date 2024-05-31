@@ -23,7 +23,7 @@ jobs:
         docs-folder: "docs/"
     - uses: actions/upload-artifact@v4
       with:
-        name: DocumentationHTML
+        name: github-pages
         path: docs/_build/html/
 
   # Deployment job
