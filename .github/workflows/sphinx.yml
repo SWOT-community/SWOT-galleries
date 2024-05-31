@@ -17,7 +17,7 @@ jobs:
   docs:
     runs-on: ubuntu-24.04
     container:
-      image: mambaorg/micromamba-docker
+      image: mambaorg/micromamba
     steps:
     - uses: actions/checkout@v1
     - name: Install dependencies dependencies
