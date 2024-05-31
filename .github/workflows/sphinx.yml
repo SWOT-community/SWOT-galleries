@@ -20,7 +20,11 @@ jobs:
       image: python:3.12
     steps:
     - uses: actions/checkout@v1
-    - name: Install dependencies
+    - name: Install APT dependencies
+      run: |
+        sudo apt upgrade
+        sudo apt install pandoc
+    - name: Install Python dependencies
       run: pip install -r docs/requirements.txt
     - name: Sphinx build
       run: "sphinx-build -b html docs _build"
