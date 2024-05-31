@@ -1,0 +1,7 @@
+numpy
+nbsphinx
+sphinx-gallery
+xarray
+netCDF4
+matplotlib
+cartopy
