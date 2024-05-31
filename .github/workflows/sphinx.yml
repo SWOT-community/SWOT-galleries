@@ -18,8 +18,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v1
-    - name: Install xmllint
-      run: sudo apt-get update -y && apt-get install -y gcc
+    - name: Install gcc
+      run: apt-get update -y && apt-get install -y gcc
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
