@@ -14,7 +14,7 @@ Welcome to SWOT Gallery's documentation!
       :caption: CNES-AVISO
       :maxdepth: 2
       
-   dummy/index
+   auto/dummy/index
 
 
 Indices and tables

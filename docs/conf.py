@@ -23,7 +23,7 @@ sphinx_gallery_conf = dict(
     # It is important to follow the auto_* convention, because the gitlab CI
     # pipeline uses it to retrieve the notebook executions.
     examples_dirs=['../dummy'],
-    gallery_dirs=['galleries/auto_dummy'],
+    gallery_dirs=['auto/dummy'],
     filename_pattern=r'[\\\/]ex_',
     only_warn_on_example_error=True,
     remove_config_comments=True,
