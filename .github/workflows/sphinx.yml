@@ -17,13 +17,11 @@ jobs:
   docs:
     runs-on: ubuntu-24.04
     container:
-      image: ubuntu:24.04
+      image: micromamba-docker
     steps:
     - uses: actions/checkout@v1
-    - name: Install APT dependencies
-      run: apt-get upgrade -y && apt-get install -y pandoc
-    - name: Install Python dependencies
-      run: pip install -r docs/requirements.txt
+    - name: Install dependencies dependencies
+      run: mamba install -y -r docs/requirements.txt
     - name: Sphinx build
       run: "sphinx-build -b html docs _build"
     - uses: actions/upload-pages-artifact@v3.0.1
