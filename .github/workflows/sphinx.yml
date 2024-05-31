@@ -25,7 +25,7 @@ jobs:
     - name: Sphinx build
       shell: bash
       run: |
-        micromamba shell hook --shell bash
+        eval "$(micromamba shell hook --shell bash)"
         micromamba activate
         sphinx-build -b html docs _build
     - uses: actions/upload-pages-artifact@v3.0.1
