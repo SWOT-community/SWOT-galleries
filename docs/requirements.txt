@@ -2,6 +2,7 @@ numpy
 nbsphinx
 sphinx>=6
 sphinx-gallery
+markupsafe==2.0.1
 #xarray
 #netCDF4
 matplotlib
