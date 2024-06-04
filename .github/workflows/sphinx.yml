@@ -20,8 +20,8 @@ jobs:
       image: mambaorg/micromamba
       options: --user root
     steps:
-    - name: Install dependencies dependencies
-      run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
+    - name: Install latest git for submodules # https://github.com/actions/checkout/issues/758
+      run: micromamba install -y -c conda-forge -n base git && micromamba clean --all --yes
     - name: Activate environment
       run: |
         eval "$(micromamba shell hook --shell bash)"
@@ -29,6 +29,8 @@ jobs:
     - uses: actions/checkout@v4
       with:
         submodules: true
+    - name: Install dependencies dependencies
+      run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
     - name: Sphinx build
       shell: bash
       run: sphinx-build -b html docs _build
