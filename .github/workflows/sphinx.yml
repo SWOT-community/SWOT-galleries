@@ -21,8 +21,6 @@ jobs:
       options: --user root
     steps:
     - uses: actions/checkout@v3
-      with:
-        submodules: 'true'
     - name: Install dependencies dependencies
       run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
     - name: Sphinx build
@@ -30,6 +28,7 @@ jobs:
       run: |
         eval "$(micromamba shell hook --shell bash)"
         micromamba activate
+        git submodule update --init
         sphinx-build -b html docs _build
     - uses: actions/upload-pages-artifact@v3.0.1
       with:
