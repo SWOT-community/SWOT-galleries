@@ -20,17 +20,18 @@ jobs:
       image: mambaorg/micromamba
       options: --user root
     steps:
-    - uses: actions/checkout@v3
     - name: Install dependencies dependencies
       run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
-    - name: Sphinx build
-      shell: bash
+    - name: Activate environment
       run: |
         eval "$(micromamba shell hook --shell bash)"
         micromamba activate
-        ls -la
-        git submodule update --init
-        sphinx-build -b html docs _build
+    - uses: actions/checkout@v4
+      with:
+        submodules: true
+    - name: Sphinx build
+      shell: bash
+      run: sphinx-build -b html docs _build
     - uses: actions/upload-pages-artifact@v3.0.1
       with:
         name: github-pages
