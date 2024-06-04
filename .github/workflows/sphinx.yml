@@ -20,7 +20,9 @@ jobs:
       image: mambaorg/micromamba
       options: --user root
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'true'
     - name: Install dependencies dependencies
       run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
     - name: Sphinx build
