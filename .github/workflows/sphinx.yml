@@ -15,12 +15,12 @@ permissions:
 
 jobs:
   docs:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     container:
       image: mambaorg/micromamba
       options: --user root
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         submodules: 'true'
     - name: Install dependencies dependencies
