@@ -23,6 +23,7 @@ jobs:
     - name: Install latest git for submodules # https://github.com/actions/checkout/issues/758
       run: micromamba install -y -c conda-forge -n base git && micromamba clean --all --yes
     - name: Activate environment
+      shell: bash
       run: |
         eval "$(micromamba shell hook --shell bash)"
         micromamba activate
@@ -32,7 +33,6 @@ jobs:
     - name: Install dependencies dependencies
       run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
     - name: Sphinx build
-      shell: bash
       run: sphinx-build -b html docs _build
     - uses: actions/upload-pages-artifact@v3.0.1
       with:
