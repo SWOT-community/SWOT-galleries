@@ -52,6 +52,10 @@ nbsphinx_prolog = r"""
 
 nbsphinx_epilog = nbsphinx_prolog
 
+nbsphinx_thumbnails = {
+  'CNES-AVISO/ex_aviso_download_swot': 'aviso.png',
+}
+
 
 templates_path = ['_templates']
 exclude_patterns = []
