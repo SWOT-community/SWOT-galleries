@@ -10,3 +10,4 @@ CNES/AVISO SWOT Ocean Data Tutorials
   CNES-AVISO/ex_aviso_download_swot.ipynb
 
 .. image:: aviso.png
+   :class: hidden
