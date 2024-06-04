@@ -21,19 +21,23 @@ jobs:
       options: --user root
     steps:
     - name: Install latest git for submodules # https://github.com/actions/checkout/issues/758
-      run: micromamba install -y -c conda-forge -n base git && micromamba clean --all --yes
-    - name: Activate environment
-      shell: bash
       run: |
-        eval "$(micromamba shell hook --shell bash)"
-        micromamba activate
+        apt-get install -y software-properties-common \
+        && apt-get update \
+        && add-apt-repository -y ppa:git-core/ppa \
+        && apt-get update \
+        && apt-get install -y git
     - uses: actions/checkout@v4
       with:
         submodules: true
     - name: Install dependencies dependencies
       run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
     - name: Sphinx build
-      run: sphinx-build -b html docs _build
+      shell: bash
+      run: |
+        eval "$(micromamba shell hook --shell bash)"
+        micromamba activate
+        sphinx-build -b html docs _build
     - uses: actions/upload-pages-artifact@v3.0.1
       with:
         name: github-pages
