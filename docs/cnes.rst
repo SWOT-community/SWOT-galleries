@@ -7,4 +7,6 @@ CNES/AVISO SWOT Ocean Data Tutorials
 
   CNES-AVISO/ex_swot_l3_startup_aviso_ftp.ipynb
   CNES-AVISO/ex_subset_swot_l2_unsmoothed_aviso.ipynb
-  CNES-AVISO/ex_aviso_download_swot.ipynb       
+  CNES-AVISO/ex_aviso_download_swot.ipynb
+
+.. image:: aviso.png
