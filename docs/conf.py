@@ -54,6 +54,11 @@ nbsphinx_epilog = nbsphinx_prolog
 
 nbsphinx_thumbnails = {
   'CNES-AVISO/ex_aviso_download_swot': '_images/aviso.png',
+  'SWOT-Hydrology/BASIC/Hydrocron_SWOT_timeseries_examples': '_static/podaac.png',
+  'SWOT-Hydrology/BASIC/Search_by_earthaccess_python_package': '_static/podaac.png',
+  'SWOT-Hydrology/BASIC/Search_by_SWORD_River_ID_in_Earthdata': '_static/podaac.png',
+  'SWOT-Hydrology/BASIC/SWOT_Raster_Notebook_cloud_in_Earthdata': '_static/podaac.png',
+  'SWOT-Hydrology/BASIC/SWOT_Raster_Notebook_local_in_Earthdata': '_static/podaac.png',
 }
 
 
@@ -68,3 +73,13 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 #html_theme = 'alabaster'
 html_static_path = ['_static']
+
+html_theme_options = {
+    "favicons": [
+        {
+          "rel": "icon",
+          "sizes": "32x32",
+          "href": "swot_favicon.jpg",
+        },
+    ],
+}

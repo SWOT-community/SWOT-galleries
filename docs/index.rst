@@ -21,6 +21,7 @@ Welcome to SWOT Gallery's documentation!
    :maxdepth: 1
    
    cnes
+   hydrology
 
 Indices and tables
 ==================
