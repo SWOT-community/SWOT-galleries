@@ -1,4 +1,4 @@
-CNES/AVISO SWOT Ocean Data Tutorials
+SWOT Ocean Data Tutorials
 ====================================
 
 .. nblinkgallery::

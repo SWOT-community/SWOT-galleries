@@ -1,0 +1,13 @@
+.wy-side-nav-search, .wy-nav-top, .wy-nav-side {
+    background: #0b1817;
+  }
+  .wy-nav-side{
+    color: #0b1817;
+  }
+  .wy-nav-content {
+      max-width: 80% !important;
+      background: #fefefe
+  }
+  .wy-menu-vertical p.caption{
+    color:#43a299
+  }
