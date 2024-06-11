@@ -1,28 +1,29 @@
-.. _product_overview:
+.. _basic:
 
 ===================
 Basic
 ===================
 
-.. toctree::
+.. nblinkgallery::
     :caption: Product Overview
-    :maxdepth: 1
+    :name: product_overview
 
     ../SWOT-Hydrology/BASIC/Product_Overview_SWOT_HR_cloud_in_Earthdata.ipynb
     ../SWOT-Hydrology/BASIC/Product_Overview_SWOT_HR_local_in_Earthdata.ipynb
 
-.. toctree::
+.. nblinkgallery::
     :caption: Read and plot
-    :maxdepth: 1
+    :name: read_plot
 
     ../SWOT-Hydrology/BASIC/Read_SWOT_PixelCloud.ipynb
     ../SWOT-Hydrology/BASIC/Read_SWOT_Raster.ipynb
     ../SWOT-Hydrology/BASIC/Read_SWOT_RiverSP_Node.ipynb
     ../SWOT-Hydrology/BASIC/Read_SWOT_RiverSP_Reach.ipynb
 
-.. toctree::
+
+.. nblinkgallery::
     :caption: Tools to classify
-    :maxdepth: 1
+    :name: to_classify
 
     ../SWOT-Hydrology/BASIC/Create_River_Profiles.ipynb
     ../SWOT-Hydrology/BASIC/Hydrocron_SWOT_timeseries_examples.ipynb

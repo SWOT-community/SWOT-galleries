@@ -1,7 +1,7 @@
-.. _intermediate:
+.. _expert:
 
 ===================
-Intermediate
+Expert
 ===================
 
 This section has not been implemented yet
