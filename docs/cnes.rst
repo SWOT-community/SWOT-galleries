@@ -1,7 +1,7 @@
 SWOT Ocean Data Tutorials
 ====================================
 
-.. nbgallery::
+.. nblinkgallery::
   :caption: Examples
   :name: cnes_gallery
 
