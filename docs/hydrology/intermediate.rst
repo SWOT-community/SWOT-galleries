@@ -8,8 +8,8 @@ Intermediate
     :caption: Use multiple vector products at once
     :name: vector_products
 
-    ../SWOT-Hydrology/INTERMEDIATE/plot_timeseries_from_lakesp_prior.ipynb
-
+    ../SWOT-Hydrology/INTERMEDIATE/plot_timeseries_from_multiple_lakesp_prior.ipynb
+    ../SWOT-Hydrology/INTERMEDIATE/plot_geometries_from_multiple_lakesp_prior.ipynb
 
 .. nblinkgallery::
     :caption: Download and Convert Pixel Cloud products into a user-friendly format
