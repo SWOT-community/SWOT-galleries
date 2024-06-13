@@ -59,6 +59,8 @@ nbsphinx_thumbnails = {
   'SWOT-Hydrology/BASIC/Search_by_SWORD_River_ID_in_Earthdata': '_static/SWORD_River_reaches.png',
   'SWOT-Hydrology/BASIC/SWOT_Raster_Notebook_cloud_in_Earthdata': '_static/Raster_QF_example.png',
   'SWOT-Hydrology/BASIC/SWOT_Raster_Notebook_local_in_Earthdata': '_static/Raster_QF_example.png',
+  'SWOT-Hydrology/INTERMEDIATE/download_pixc_to_zarr': '_static/zarr.png',
+  'SWOT-Hydrology/INTERMEDIATE/download_pixc_to_gpkg': '_static/geopkg.png',
 }
 
 
