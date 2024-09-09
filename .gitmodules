@@ -1,6 +1,6 @@
 [submodule "docs/SWOT-Oceanography"]
         path = docs/SWOT-Oceanography
-        url = git@github.com:SWOT-community/SWOT-Oceanography.git
+        url = https://github.com/SWOT-community/SWOT-Oceanography
 [submodule "docs/SWOT-Hydrology"]
 	path = docs/SWOT-Hydrology
 	url = https://github.com/SWOT-community/SWOT-Hydrology
