@@ -1,6 +1,6 @@
-[submodule "docs/CNES-AVISO"]
-	path = docs/CNES-AVISO
-	url = git@github.com:SWOT-community/CNES-AVISO.git
+[submodule "docs/SWOT-Oceanography"]
+        path = docs/SWOT-Oceanography
+        url = git@github.com:SWOT-community/SWOT-Oceanography.git
 [submodule "docs/SWOT-Hydrology"]
 	path = docs/SWOT-Hydrology
 	url = https://github.com/SWOT-community/SWOT-Hydrology
