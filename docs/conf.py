@@ -53,7 +53,7 @@ nbsphinx_prolog = r"""
 nbsphinx_epilog = nbsphinx_prolog
 
 nbsphinx_thumbnails = {
-  'CNES-AVISO/ex_aviso_download_swot': '_images/aviso.png',
+  'SWOT-Oceanography/ex_aviso_download_swot': '_images/aviso.png',
   'SWOT-Hydrology/BASIC/Hydrocron_SWOT_timeseries_examples': '_static/Hydrocron_logo.png',
   'SWOT-Hydrology/BASIC/Search_by_earthaccess_python_package': '_static/earthaccess_logo.png',
   'SWOT-Hydrology/BASIC/Search_by_SWORD_River_ID_in_Earthdata': '_static/SWORD_River_reaches.png',
