@@ -5,7 +5,9 @@ SWOT Ocean Data Tutorials
   :caption: Access to data
   :name: cnes_data_gallery
 
+  SWOT-Oceanography/ex_search_swot
   SWOT-Oceanography/ex_aviso_download_swot.ipynb
+  SWOT-Oceanography/ex_download_subset_aviso_ftp
 
 .. nbgallery::
   :caption: 2-km data
