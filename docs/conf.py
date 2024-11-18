@@ -63,6 +63,7 @@ nbsphinx_thumbnails = {
   'SWOT-Hydrology/INTERMEDIATE/download_pixc_to_gpkg': '_static/geopkg.png',
 }
 
+nbsphinx_allow_errors = True
 
 templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and

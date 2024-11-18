@@ -20,6 +20,7 @@ SWOT Ocean Data Tutorials
   :caption: 250-m data
   :name: cnes_l3_gallery
 
+  SWOT-Oceanography/ex_swot_l3_unsmoothed.ipynb
   SWOT-Oceanography/ex_subset_swot_l3_unsmoothed_aviso_tds.ipynb
   SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_tds.ipynb
   SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_ftp.ipynb
