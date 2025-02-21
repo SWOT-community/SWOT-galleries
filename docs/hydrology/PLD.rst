@@ -39,4 +39,4 @@ Note that you must meet the following fields requirements.
   
 Contact
 =================
-Please send you request and files to Claire pottier (CNES)
+Please send you request and files to Claire Pottier (CNES)
