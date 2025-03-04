@@ -16,7 +16,7 @@ Provide us with
 
 Add a new lake
 =================
-To add a new lake or update an existing lake, you must provide us with a shapefile with updated geometry and information  (use the shapefile template provided here).
+To add a new lake or update an existing lake, you must provide us with a shapefile with updated geometry and information (  :download:`click to download the shapefile template to use <proposal_to_update_pld.zip>`).
 
 Note that you must meet the following fields requirements.
 
