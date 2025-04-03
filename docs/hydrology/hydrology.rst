@@ -48,7 +48,9 @@ A Priori Databases
 -------------------
 
 * `SWOT River Database (SWORD) <https://www.swordexplorer.com/>`_: the database for rivers SWOT products are based upon, great for discovering river reach IDs!. The dataset is also available in `hydroweb.next <https://hydroweb.next.theia-land.fr/?pid=SWOT_PRIOR_RIVER_DATABASE>`_ 
-* `Prior Lake Database (PLD) <https://hydroweb.next.theia-land.fr/?pid=SWOT_PRIOR_LAKE_DATABASE>`_: Add in the PLD layer into hydroweb.next to see the lakes SWOT products are based upon, great for discovering lake IDs!
+* `Prior Lake Database (PLD) <https://hydroweb.next.theia-land.fr/?pid=SWOT_PRIOR_LAKE_DATABASE>`_: 
+    * Add the PLD layer into hydroweb.next to see the lakes SWOT products are based upon, great for discovering lake IDs!
+    * Ask for PLD updates in the page :ref:`pld-label`
 
 ---------------------
 Products Description
