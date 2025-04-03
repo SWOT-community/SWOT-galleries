@@ -25,5 +25,12 @@ SWOT Ocean Data Tutorials
   SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_tds.ipynb
   SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_ftp.ipynb
 
+
+.. nbgallery::
+  :caption: Wind Wave data
+  :name: cnes_l3_ww_gallery
+
+  SWOT-Oceanography/ex_swot_l3_lr_ww_startup.ipynb
+  
 .. image:: aviso.png
    :class: hidden
