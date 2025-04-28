@@ -24,5 +24,6 @@ Intermediate
     :name: pixc4experts
 
     ../SWOT-Hydrology/INTERMEDIATE/from_pixc_to_virtual_stations.ipynb
+    ../SWOT-Hydrology/INTERMEDIATE/from_pixc_to_river_profile.ipynb
     ../SWOT-Hydrology/INTERMEDIATE/SWOT_PIXC_PhaseUnwrap_localmachine.ipynb
     ../SWOT-Hydrology/INTERMEDIATE/SWOT_PIXC_Area_localmachine.ipynb
