@@ -5,7 +5,6 @@ How to update the Prior Lake Database
 If you need some to ask for updates of SWOT PLD, please send us the informations detailed in the sections below.
 We will do our best to integrate modifications as soon as possible.
 
- 
 
 Remove an erroneous lake
 =================

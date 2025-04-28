@@ -61,6 +61,7 @@ nbsphinx_thumbnails = {
   'SWOT-Hydrology/BASIC/SWOT_Raster_Notebook_local_in_Earthdata': '_static/Raster_QF_example.png',
   'SWOT-Hydrology/INTERMEDIATE/download_pixc_to_zarr': '_static/zarr.png',
   'SWOT-Hydrology/INTERMEDIATE/download_pixc_to_gpkg': '_static/geopkg.png',
+  'SWOT-Hydrology/INTERMEDIATE/from_pixc_to_virtual_stations': '_static/from_pixc_virtual_stations_example.png',
 }
 
 templates_path = ['_templates']

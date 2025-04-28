@@ -17,5 +17,12 @@ Intermediate
 
     ../SWOT-Hydrology/INTERMEDIATE/download_pixc_to_gpkg.ipynb
     ../SWOT-Hydrology/INTERMEDIATE/download_pixc_to_zarr.ipynb
+    ../SWOT-Hydrology/INTERMEDIATE/from_pixc_to_virtual_stations.ipynb
 This gallery is based on the `PixCDust <https://github.com/SWOT-community/PixCDust>`_ package, dedicated to foster the use of the SWOT-HR Pixel Cloud products.  
 Find more notebooks in the project.
+
+.. nblinkgallery::
+    :caption: Dive in Pixel Cloud data
+    :name: pixc4experts
+    ../SWOT-Hydrology/INTERMEDIATE/SWOT_PIXC_PhaseUnwrap_localmachine.ipynb
+    ../SWOT-Hydrology/INTERMEDIATE/SWOT_PIXC_Area_localmachine.ipynb
