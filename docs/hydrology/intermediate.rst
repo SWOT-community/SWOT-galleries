@@ -17,7 +17,7 @@ Intermediate
 
     ../SWOT-Hydrology/INTERMEDIATE/download_pixc_to_gpkg.ipynb
     ../SWOT-Hydrology/INTERMEDIATE/download_pixc_to_zarr.ipynb
-This gallery is based on the `PixCDust <https://github.com/SWOT-community/PixCDust>`_ package, dedicated to foster the use of the SWOT-HR Pixel Cloud products.  
+    This gallery is based on the `PixCDust <https://github.com/SWOT-community/PixCDust>`_ package, dedicated to foster the use of the SWOT-HR Pixel Cloud products.  
 Find more notebooks in the project.
 
 .. nblinkgallery::
