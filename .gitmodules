@@ -4,3 +4,6 @@
 [submodule "docs/SWOT-Hydrology"]
 	path = docs/SWOT-Hydrology
 	url = https://github.com/SWOT-community/SWOT-Hydrology
+[submodule "docs/l3_lr_ssh"]
+	path = docs/l3_lr_ssh
+	url = https://github.com/robin-cls/SWOT_l3_lr_ssh_doc.git

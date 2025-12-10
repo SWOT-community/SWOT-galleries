@@ -18,6 +18,7 @@ extensions = [
     'nbsphinx',
     'sphinx.ext.mathjax',
     # 'sphinx_gallery.gen_gallery',
+    'sphinx_tabs.tabs',
 ]
 
 # -- Extension configuration -------------------------------------------------

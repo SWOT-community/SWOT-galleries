@@ -23,6 +23,12 @@ Welcome to SWOT Gallery's documentation!
    cnes
    hydrology/hydrology
 
+.. toctree::
+   :caption: Products
+   :maxdepth: 1
+
+   l3_lr_ssh/index
+
 Indices and tables
 ==================
 
