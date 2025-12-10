@@ -3,7 +3,9 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
+  pull_request:
+    branches: ["main"]
+    
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -16,36 +18,30 @@ permissions:
 jobs:
   docs:
     runs-on: ubuntu-latest
-    container:
-      image: mambaorg/micromamba
-      options: --user root
     steps:
-    - name: Install latest git for submodules # https://github.com/actions/checkout/issues/758
-      run: |
-        apt-get update \
-        && apt-get install -y software-properties-common python3-launchpadlib \
-        && apt-get update \
-        && add-apt-repository -y ppa:git-core/ppa \
-        && apt-get update \
-        && apt-get install -y git
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         submodules: true
-    - name: Install dependencies dependencies
-      run: micromamba install -y -c conda-forge -n base --file docs/requirements.txt && micromamba clean --all --yes
+    - name: Setup micromamba
+      uses: mamba-org/setup-micromamba@v2
+      with:
+        environment-name: doc-env
+        environment-file: docs/requirements.txt
+        init-shell: bash
+        cache-environment: true
+        post-cleanup: 'all'
     - name: Sphinx build
-      shell: bash
+      shell: bash -l {0}
       run: |
-        eval "$(micromamba shell hook --shell bash)"
-        micromamba activate
         sphinx-build -b html docs _build
-    - uses: actions/upload-pages-artifact@v3.0.1
+    - uses: actions/upload-pages-artifact@v4
       with:
         name: github-pages
         path: _build
 
   # Deployment job
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
