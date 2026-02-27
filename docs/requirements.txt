@@ -13,4 +13,3 @@ matplotlib
 cartopy==0.23.0
 sphinx_rtd_theme
 ipython
-setuptools
