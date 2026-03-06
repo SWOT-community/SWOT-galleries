@@ -11,3 +11,28 @@
   .wy-menu-vertical p.caption{
     color:#43a299
   }
+
+/* fixe la hauteur des thumbnails et garde le ratio */
+.sd-card-img-top {
+    width: 75%;
+    height: 100px;          /* hauteur fixe */
+    margin: 0 auto;       /* centre horizontalement */
+    object-fit: cover;      /* recadrage si nécessaire */
+    display: block;
+}
+
+.sd-card {
+    width: 90%;
+    max-width: 250px;
+    padding: 0.5rem;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    overflow: hidden;
+    position: relative
+}
+
+.sd-card-grid {
+    display: flex;
+    flex-wrap: wrap;          /* grid classique */
+    gap: 1rem;                /* espace entre cartes */
+}
