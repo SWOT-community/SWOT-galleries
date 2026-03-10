@@ -1,7 +1,9 @@
 numpy
-nbsphinx
+myst-nb
+myst-parser
+sphinx-design
+nbformat
 sphinx>=6,<8
-sphinx-gallery
 sphinx-tabs
 markupsafe==2.0.1
 jinja2==3.1

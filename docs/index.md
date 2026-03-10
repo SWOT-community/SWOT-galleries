@@ -30,7 +30,7 @@ hydrology/hydrology
 
 ---
 
-## Products
+## Ocean Products
 
 ````{grid} 1 1 2 2
 :gutter: 2
@@ -48,6 +48,28 @@ Documentation and examples for the Level-3 Low Resolution SSH product.
 :maxdepth: 1
 
 l3_lr_ssh/index
+```
+
+---
+
+## Ocean Tools
+
+````{grid} 1 1 2 2
+:gutter: 2
+
+```{grid-item-card} Tools
+:link: tools
+:link-type: doc
+
+Useful tools developed around satellite altimetry and ocean data processing.
+```
+````
+
+```{toctree}
+:hidden:
+:maxdepth: 1
+
+tools
 ```
 
 ---

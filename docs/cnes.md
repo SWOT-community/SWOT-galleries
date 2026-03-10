@@ -9,16 +9,12 @@
 :link: SWOT-Oceanography/ex_search_swot
 :link-type: doc
 :img-top: _static/thumbs/ex_search_swot.png
-
-Example showing how to search for SWOT ocean data.
 ```
 
 ```{grid-item-card} Download SWOT data from AVISO
 :link: SWOT-Oceanography/ex_aviso_download_swot
 :link-type: doc
 :img-top: _images/aviso.png
-
-Example demonstrating how to download SWOT data from AVISO.
 ```
 ````
 

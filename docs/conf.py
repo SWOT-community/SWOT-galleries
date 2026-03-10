@@ -104,6 +104,10 @@ def generate_thumbnails(app):
     script = Path(__file__).parent / "scripts" / "generate_thumbnails.py"
     subprocess.run(["python", str(script)])
 
+def insert_links(app):
+    script = Path(__file__).parent / "scripts" / "insert_download_links.py"
+    subprocess.run(["python", str(script)])
 
 def setup(app):
     app.connect("builder-inited", generate_thumbnails)
+    app.connect("builder-inited", insert_links)
