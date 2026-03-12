@@ -21,52 +21,25 @@ Hydrology-related analyses and examples.
 ````
 
 ```{toctree}
+:caption: Galleries
 :hidden:
 :maxdepth: 1
 
 cnes
 hydrology/hydrology
 ```
-
 ---
 
-## Ocean Products
-
-````{grid} 1 1 2 2
-:gutter: 2
-
-```{grid-item-card} L3 LR SSH
-:link: l3_lr_ssh/index
-:link-type: doc
-
-Documentation and examples for the Level-3 Low Resolution SSH product.
-```
-````
-
 ```{toctree}
-:hidden:
+:caption: Ocean Products
 :maxdepth: 1
 
 l3_lr_ssh/index
 ```
-
 ---
 
-## Ocean Tools
-
-````{grid} 1 1 2 2
-:gutter: 2
-
-```{grid-item-card} Tools
-:link: tools
-:link-type: doc
-
-Useful tools developed around satellite altimetry and ocean data processing.
-```
-````
-
 ```{toctree}
-:hidden:
+:caption: Ocean Tools
 :maxdepth: 1
 
 tools
