@@ -36,17 +36,14 @@ def extract_thumbnail(nb_path, thumb_path):
 
     for cell in nb["cells"]:
 
-        # vérifier tag thumbnail
         tags = cell.get("metadata", {}).get("tags", [])
         if "thumbnail" in tags and thumbnail_cell is None:
             thumbnail_cell = cell
 
-        # garder première cellule avec image comme fallback
         if fallback_cell is None:
             if get_image_from_cell(cell) is not None:
                 fallback_cell = cell
 
-    # priorité au tag thumbnail
     target_cell = thumbnail_cell if thumbnail_cell else fallback_cell
 
     if target_cell:

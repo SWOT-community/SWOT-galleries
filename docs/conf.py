@@ -24,31 +24,6 @@ extensions = [
 # Don't add .txt suffix to source files:
 html_sourcelink_suffix = ''
 
-# This is processed by Jinja2 and inserted before each notebook
-# nbsphinx_prolog = r"""
-# {% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
-# 
-# .. raw:: html
-# 
-#     <div class="admonition note">
-#      <a href="{{ env.docname.split('/')|last|e + '.ipynb' }}" class="reference download internal" download>Download notebook</a>.
-#     </div>
-# """
-
-# nbsphinx_epilog = nbsphinx_prolog
-
-# nbsphinx_thumbnails = {
-#   'SWOT-Oceanography/ex_aviso_download_swot': '_images/aviso.png',
-#   'SWOT-Hydrology/BASIC/Hydrocron_SWOT_timeseries_examples': '_static/Hydrocron_logo.png',
-#   'SWOT-Hydrology/BASIC/Search_by_earthaccess_python_package': '_static/earthaccess_logo.png',
-#   'SWOT-Hydrology/BASIC/Search_by_SWORD_River_ID_in_Earthdata': '_static/SWORD_River_reaches.png',
-#   'SWOT-Hydrology/BASIC/SWOT_Raster_Notebook_cloud_in_Earthdata': '_static/Raster_QF_example.png',
-#   'SWOT-Hydrology/BASIC/SWOT_Raster_Notebook_local_in_Earthdata': '_static/Raster_QF_example.png',
-#   'SWOT-Hydrology/INTERMEDIATE/download_pixc_to_zarr': '_static/zarr.png',
-#   'SWOT-Hydrology/INTERMEDIATE/download_pixc_to_gpkg': '_static/geopkg.png',
-#   'SWOT-Hydrology/INTERMEDIATE/from_pixc_to_virtual_stations': '_static/from_pixc_virtual_stations_example.png',
-# }
-
 nb_execution_mode = "off"
 nb_execution_timeout = 120
 nb_execution_allow_errors = False
