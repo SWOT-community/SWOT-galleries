@@ -1,4 +1,0 @@
-Changelog
-=========
-
-.. notebook-changelog:: oceano
