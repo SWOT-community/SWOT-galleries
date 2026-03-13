@@ -1,5 +1,17 @@
 # SWOT Ocean Data Tutorials
 
+```{admonition} Gallery Versions & Changelog
+:class: dropdown tip
+
+Current version: {{ swot_oceanography_latest_badge  }}
+
+Download a release:
+
+{{ swot_oceanography_downloads }}
+
+📄 [Changelog](#changelog)
+```
+
 ## Access to data
 
 ````{grid} 1 1 3 4
@@ -116,3 +128,5 @@ SWOT-Oceanography/ex_swot_l3_lr_ww_startup
 ```{image} aviso.png
 :class: hidden
 ```
+
+```{include} SWOT-Oceanography/changelog.md
