@@ -29,3 +29,11 @@ Relies on **FCollections** to efficiently manage and read NetCDF datasets.
 
 Lightweight Python library for managing collections of files and datasets. Provides abstractions for structured data pipelines and metadata handling.
 ```
+
+```{grid-item-card} Altimetry Search
+:link: https://github.com/CNES/altimetry-search
+:link-type: url
+:img-top: _static/thumbs/altimetry-search.png
+
+Interactive tool for altimetry missions passes search - available on Binder and as a Python library.
+```
