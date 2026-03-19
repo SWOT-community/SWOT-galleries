@@ -2,10 +2,7 @@ import glob
 import os
 import nbformat
 
-GALLERIES = [
-    "Oceanography",
-    "Hydrology",
-]
+from common import GALLERIES
 
 def process_notebook(fn):
     nb = nbformat.read(fn, as_version=4)

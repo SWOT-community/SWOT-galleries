@@ -1,0 +1,5 @@
+
+GALLERIES = [
+    "Oceanography",
+    "Hydrology",
+]

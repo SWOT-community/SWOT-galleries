@@ -4,10 +4,7 @@ from pathlib import Path
 from PIL import Image
 from io import BytesIO
 
-GALLERIES = [
-    "Oceanography",
-    "Hydrology",
-]
+from common import GALLERIES
 
 def get_image_from_cell(cell):
     """Return PIL image if cell contains a PNG output."""

@@ -6,10 +6,7 @@ Generate JSON file with gallery versions based on Git tags of submodules.
 import subprocess
 from pathlib import Path
 
-GALLERIES = [
-    "Oceanography",
-    "Hydrology",
-]
+from common import GALLERIES
 
 def get_git_tags_with_dates(repo_path):
     """Return a list of (tag, date) tuples sorted by creation date descending."""
