@@ -6,9 +6,10 @@ Generate JSON file with gallery versions based on Git tags of submodules.
 import subprocess
 from pathlib import Path
 
-GALLERIES = {
-    "SWOT-Oceanography": Path("../docs/SWOT-Oceanography"),
-}
+GALLERIES = [
+    "Oceanography",
+    "Hydrology",
+]
 
 def get_git_tags_with_dates(repo_path):
     """Return a list of (tag, date) tuples sorted by creation date descending."""
@@ -30,10 +31,11 @@ def get_git_tags_with_dates(repo_path):
 def get_versions():
     """Return a dict with latest version, all tags with dates, and zip URLs."""
     gallery_versions = {}
-    for name, path in GALLERIES.items():
+    for name in GALLERIES:
+        path = Path(f"../docs/SWOT-{name}")
         tags = get_git_tags_with_dates(path)
         latest = tags[0] if tags else {"tag": "dev", "date": ""}
-        zip_base = f"https://github.com/SWOT-community/{name}/archive/refs/tags"
+        zip_base = f"https://github.com/SWOT-community/SWOT-{name}/archive/refs/tags"
         gallery_versions[name] = {
             "latest": latest["tag"],
             "latest_date": latest["date"],
@@ -67,5 +69,4 @@ def get_myst_substitutions():
     return substitutions
 
 if __name__ == "__main__":
-    import pprint
-    pprint.pprint(get_myst_substitutions())
+    print(get_myst_substitutions())

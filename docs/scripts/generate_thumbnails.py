@@ -4,11 +4,10 @@ from pathlib import Path
 from PIL import Image
 from io import BytesIO
 
-NOTEBOOK_DIR = Path("docs/SWOT-Oceanography")
-THUMB_DIR = Path("docs/_static/thumbs")
-
-THUMB_DIR.mkdir(parents=True, exist_ok=True)
-
+GALLERIES = [
+    "Oceanography",
+    "Hydrology",
+]
 
 def get_image_from_cell(cell):
     """Return PIL image if cell contains a PNG output."""
@@ -58,11 +57,15 @@ def extract_thumbnail(nb_path, thumb_path):
 
 
 def main():
-    for nb in NOTEBOOK_DIR.rglob("*.ipynb"):
-        thumb = THUMB_DIR / f"{nb.stem}.png"
+    for gallery in GALLERIES:
+        NOTEBOOK_DIR = Path(f"docs/SWOT-{gallery}")
+        THUMB_DIR = Path("docs/_static/images/") / gallery.lower() / "_thumbs"
+        THUMB_DIR.mkdir(parents=True, exist_ok=True)
+        for nb in NOTEBOOK_DIR.rglob("*.ipynb"):
+            thumb = THUMB_DIR / f"{nb.stem}.png"
 
-        if not thumb.exists():
-            extract_thumbnail(nb, thumb)
+            if not thumb.exists():
+                extract_thumbnail(nb, thumb)
 
 
 if __name__ == "__main__":

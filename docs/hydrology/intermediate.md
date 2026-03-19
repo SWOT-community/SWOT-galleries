@@ -7,14 +7,16 @@
 ````{grid} 1 1 3 4
 :gutter: 2
 
-```{grid-item-card} Plot time series from multiple lake prior datasets
+```{grid-item-card} Plot a lake timeseries from multiple Lake/River Single Pass products
 :link: ../SWOT-Hydrology/INTERMEDIATE/plot_timeseries_from_multiple_lakesp_prior
 :link-type: doc
+:img-top: ../_static/images/hydrology/_thumbs/plot_timeseries_from_multiple_lakesp_prior.png
 ```
 
-```{grid-item-card} Plot geometries from multiple lake prior datasets
+```{grid-item-card} Plot a lake’s geometries from multiple Lake/River Single Pass products
 :link: ../SWOT-Hydrology/INTERMEDIATE/plot_geometries_from_multiple_lakesp_prior
 :link-type: doc
+:img-top: ../_static/images/hydrology/_thumbs/plot_geometries_from_multiple_lakesp_prior.png
 ```
 ````
 
@@ -32,16 +34,16 @@
 ````{grid} 1 1 3 4
 :gutter: 2
 
-```{grid-item-card} Download Pixel Cloud to GeoPackage
+```{grid-item-card} Download and convert to Geopackage
 :link: ../SWOT-Hydrology/INTERMEDIATE/download_pixc_to_gpkg
 :link-type: doc
-:img-top: ../_static/geopkg.png
+:img-top: ../_static/images/hydrology/geopkg.png
 ```
 
-```{grid-item-card} Download Pixel Cloud to Zarr
+```{grid-item-card} Download and convert to Zarr
 :link: ../SWOT-Hydrology/INTERMEDIATE/download_pixc_to_zarr
 :link-type: doc
-:img-top: ../_static/zarr.png
+:img-top: ../_static/images/hydrology/zarr.png
 ```
 
 ````
@@ -60,25 +62,28 @@
 ````{grid} 1 1 3 4
 :gutter: 2
 
-```{grid-item-card} From Pixel Cloud to Virtual Stations
+```{grid-item-card} From PixC to Virtual Stations
 :link: ../SWOT-Hydrology/INTERMEDIATE/from_pixc_to_virtual_stations
 :link-type: doc
-:img-top: ../_static/from_pixc_virtual_stations_example.png
+:img-top: ../_static/images/hydrology/_thumbs/from_pixc_to_virtual_stations.png
 ```
 
-```{grid-item-card} From Pixel Cloud to River Profile
+```{grid-item-card} From PixC to river profiles
 :link: ../SWOT-Hydrology/INTERMEDIATE/from_pixc_to_river_profile
 :link-type: doc
+:img-top: ../_static/images/hydrology/_thumbs/from_pixc_to_river_profile.png
 ```
 
-```{grid-item-card} PIXC Phase Unwrap (local machine)
+```{grid-item-card} Swot PixC Dataset Phase Unwrapping on a local machine
 :link: ../SWOT-Hydrology/INTERMEDIATE/SWOT_PIXC_PhaseUnwrap_localmachine
 :link-type: doc
+:img-top: ../_static/images/hydrology/_thumbs/SWOT_PIXC_PhaseUnwrap_localmachine.png
 ```
 
-```{grid-item-card} PIXC Area Analysis (local machine)
+```{grid-item-card} Swot PixC Dataset Area Aggregration on a local machine
 :link: ../SWOT-Hydrology/INTERMEDIATE/SWOT_PIXC_Area_localmachine
 :link-type: doc
+:img-top: ../_static/images/hydrology/_thumbs/SWOT_PIXC_Area_localmachine.png
 ```
 ````
 

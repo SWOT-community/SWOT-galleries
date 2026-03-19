@@ -1,5 +1,5 @@
 
-# SWOT Hydrology Data Tutorials
+# Swot Hydrology Data Tutorials
 
 Here are Hydrology-relevant tutorials and resources for the Surface Water and Ocean Topography (SWOT) Mission, using cloud computing or via local machine.
 
@@ -47,7 +47,7 @@ expert
 
 | | |
 |---|---|
-| ![hydroweb.next](../_static/hydroweb_next_1024px.png){width=30%} | ![podaac](../_static/podaac.png){width=15%} |
+| ![hydroweb.next](../_static/images/hydrology/hydroweb_next_1024px.png) | ![podaac](../_static/images/hydrology/podaac.png) |
 
 All SWOT Hydrology data illustrated in these tutorials can be accessed via:
 

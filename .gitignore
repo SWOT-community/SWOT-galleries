@@ -72,7 +72,8 @@ instance/
 _build
 docs/_build/
 docs/build
-docs/_static/thumbs
+docs/_static/images/oceanography/_thumbs
+docs/_static/images/hydrology/_thumbs
 docs/jupyter_execute
 
 # PyBuilder

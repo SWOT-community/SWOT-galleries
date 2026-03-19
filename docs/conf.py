@@ -50,8 +50,8 @@ html_title = "SWOT Community"
 html_short_title = "SWOT Community"
 html_static_path = ["_static"]
 html_css_files = ["css/custom.css"]
-html_logo = "_static/SWOT_spacecraft_model.png"
-html_favicon = "_static/swot_favicon.png"
+html_logo = "_static/images/SWOT_spacecraft_model.png"
+html_favicon = "_static/images/swot_favicon.png"
 html_sourcelink_suffix = ''
 
 html_theme_options = {

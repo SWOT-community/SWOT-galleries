@@ -1,13 +1,13 @@
-# SWOT Ocean Data Tutorials
+# Swot Ocean Data Tutorials
 
 ```{admonition} Gallery Versions & Changelog
 :class: dropdown tip
 
-Current version: {{ swot_oceanography_latest_badge  }}
+Current version: {{ oceanography_latest_badge  }}
 
 Download a release:
 
-{{ swot_oceanography_downloads }}
+{{ oceanography_downloads }}
 
 📄 [Changelog](#changelog)
 ```
@@ -17,16 +17,16 @@ Download a release:
 ````{grid} 1 1 3 4
 :gutter: 2
 
-```{grid-item-card} Search SWOT data
+```{grid-item-card} Search Swot data
 :link: SWOT-Oceanography/ex_search_swot
 :link-type: doc
-:img-top: _static/thumbs/ex_search_swot.png
+:img-top: _static/images/oceanography/_thumbs/ex_search_swot.png
 ```
 
-```{grid-item-card} Download SWOT data from AVISO
+```{grid-item-card} Download Swot data from AVISO
 :link: SWOT-Oceanography/ex_aviso_download_swot
 :link-type: doc
-:img-top: _images/aviso.png
+:img-top: _static/images/oceanography/aviso.png
 ```
 ````
 
@@ -47,13 +47,13 @@ SWOT-Oceanography/ex_aviso_download_swot
 ```{grid-item-card} Basic L2 startup
 :link: SWOT-Oceanography/ex_swot_l2_basic_startup
 :link-type: doc
-:img-top: _static/thumbs/ex_swot_l2_basic_startup.png
+:img-top: _static/images/oceanography/_thumbs/ex_swot_l2_basic_startup.png
 ```
 
 ```{grid-item-card} L3 startup
 :link: SWOT-Oceanography/ex_swot_l3_startup
 :link-type: doc
-:img-top: _static/thumbs/ex_swot_l3_startup.png
+:img-top: _static/images/oceanography/_thumbs/ex_swot_l3_startup.png
 ```
 ````
 
@@ -74,25 +74,25 @@ SWOT-Oceanography/ex_swot_l3_startup
 ```{grid-item-card} L3 unsmoothed data
 :link: SWOT-Oceanography/ex_swot_l3_unsmoothed
 :link-type: doc
-:img-top: _static/thumbs/ex_swot_l3_unsmoothed.png
+:img-top: _static/images/oceanography/_thumbs/ex_swot_l3_unsmoothed.png
 ```
 
 ```{grid-item-card} Subset L3 unsmoothed (AVISO TDS)
 :link: SWOT-Oceanography/ex_subset_swot_l3_unsmoothed_aviso_tds
 :link-type: doc
-:img-top: _static/thumbs/ex_subset_swot_l3_unsmoothed_aviso_tds.png
+:img-top: _static/images/oceanography/_thumbs/ex_subset_swot_l3_unsmoothed_aviso_tds.png
 ```
 
 ```{grid-item-card} Subset L2 unsmoothed (AVISO TDS)
 :link: SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_tds
 :link-type: doc
-:img-top: _static/thumbs/ex_subset_swot_l2_unsmoothed_aviso_tds.png
+:img-top: _static/images/oceanography/_thumbs/ex_subset_swot_l2_unsmoothed_aviso_tds.png
 ```
 
 ```{grid-item-card} Sea ice classification
 :link: SWOT-Oceanography/ex_sea_ice_classification
 :link-type: doc
-:img-top: _static/thumbs/ex_sea_ice_classification.png
+:img-top: _static/images/oceanography/_thumbs/ex_sea_ice_classification.png
 ```
 ````
 
@@ -115,7 +115,7 @@ SWOT-Oceanography/ex_sea_ice_classification
 ```{grid-item-card} L3 LR Wind Wave startup
 :link: SWOT-Oceanography/ex_swot_l3_lr_ww_startup
 :link-type: doc
-:img-top: _static/thumbs/ex_swot_l3_lr_ww_startup.png
+:img-top: _static/images/oceanography/_thumbs/ex_swot_l3_lr_ww_startup.png
 ```
 ````
 

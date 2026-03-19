@@ -3,8 +3,8 @@ import os
 import nbformat
 
 GALLERIES = [
-    "docs/SWOT-Oceanography",
-    "docs/SWOT-Hydrology",
+    "Oceanography",
+    "Hydrology",
 ]
 
 def process_notebook(fn):
@@ -21,7 +21,7 @@ def process_notebook(fn):
 
 def main():
     for gallery in GALLERIES:
-        pattern = os.path.join(gallery, "**", "*.ipynb")
+        pattern = os.path.join(f"docs/SWOT-{gallery}", "**", "*.ipynb")
         for fn in glob.glob(pattern, recursive=True):
             process_notebook(fn)
 
