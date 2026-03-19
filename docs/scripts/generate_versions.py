@@ -42,6 +42,7 @@ def get_versions():
             "tags": tags[1:],
             "zip_base": zip_base,
         }
+    print(gallery_versions)
     return gallery_versions
 
 def get_myst_substitutions():
