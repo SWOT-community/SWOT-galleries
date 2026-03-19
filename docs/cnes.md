@@ -17,13 +17,13 @@ Download a release:
 ````{grid} 1 1 3 4
 :gutter: 2
 
-```{grid-item-card} Search Swot data
+```{grid-item-card} Search Swot
 :link: SWOT-Oceanography/ex_search_swot
 :link-type: doc
 :img-top: _static/images/oceanography/_thumbs/ex_search_swot.png
 ```
 
-```{grid-item-card} Download Swot data from AVISO
+```{grid-item-card} Download Swot from AVISO
 :link: SWOT-Oceanography/ex_aviso_download_swot
 :link-type: doc
 :img-top: _static/images/oceanography/aviso.png
@@ -44,13 +44,13 @@ SWOT-Oceanography/ex_aviso_download_swot
 ````{grid} 1 1 3 4
 :gutter: 2
 
-```{grid-item-card} Basic L2 startup
+```{grid-item-card} SWOT L2 KaRIn LR Ocean Data Products
 :link: SWOT-Oceanography/ex_swot_l2_basic_startup
 :link-type: doc
 :img-top: _static/images/oceanography/_thumbs/ex_swot_l2_basic_startup.png
 ```
 
-```{grid-item-card} L3 startup
+```{grid-item-card} SWOT L3 KaRIn and Nadir Ocean Data Products
 :link: SWOT-Oceanography/ex_swot_l3_startup
 :link-type: doc
 :img-top: _static/images/oceanography/_thumbs/ex_swot_l3_startup.png
@@ -71,25 +71,25 @@ SWOT-Oceanography/ex_swot_l3_startup
 ````{grid} 1 1 3 4
 :gutter: 2
 
-```{grid-item-card} L3 unsmoothed data
+```{grid-item-card} Discover Swot L3 Unsmoothed data, and compare with CMEMS L4 SLA and IFREMER SST data
 :link: SWOT-Oceanography/ex_swot_l3_unsmoothed
 :link-type: doc
 :img-top: _static/images/oceanography/_thumbs/ex_swot_l3_unsmoothed.png
 ```
 
-```{grid-item-card} Subset L3 unsmoothed (AVISO TDS)
+```{grid-item-card} Subset SWOT LR L3 Unsmoothed data from AVISO’s THREDDS Data Server
 :link: SWOT-Oceanography/ex_subset_swot_l3_unsmoothed_aviso_tds
 :link-type: doc
 :img-top: _static/images/oceanography/_thumbs/ex_subset_swot_l3_unsmoothed_aviso_tds.png
 ```
 
-```{grid-item-card} Subset L2 unsmoothed (AVISO TDS)
+```{grid-item-card} Subset SWOT LR L2 Unsmoothed data from AVISO’s THREDDS Data Server
 :link: SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_tds
 :link-type: doc
 :img-top: _static/images/oceanography/_thumbs/ex_subset_swot_l2_unsmoothed_aviso_tds.png
 ```
 
-```{grid-item-card} Sea ice classification
+```{grid-item-card} Sea Ice Classification and local Leads/floes PDF analysis
 :link: SWOT-Oceanography/ex_sea_ice_classification
 :link-type: doc
 :img-top: _static/images/oceanography/_thumbs/ex_sea_ice_classification.png
@@ -112,7 +112,7 @@ SWOT-Oceanography/ex_sea_ice_classification
 ````{grid} 1 1 3 4
 :gutter: 2
 
-```{grid-item-card} L3 LR Wind Wave startup
+```{grid-item-card} SWOT L3 KaRIn Wind Wave Data Products
 :link: SWOT-Oceanography/ex_swot_l3_lr_ww_startup
 :link-type: doc
 :img-top: _static/images/oceanography/_thumbs/ex_swot_l3_lr_ww_startup.png
