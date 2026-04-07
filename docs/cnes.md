@@ -28,6 +28,12 @@ Download a release:
 :link-type: doc
 :img-top: _static/images/oceanography/aviso.png
 ```
+
+```{grid-item-card} Region of Interest Extraction
+:link: SWOT-Oceanography/ex_roi_extraction
+:link-type: doc
+:img-top: _static/images/oceanography/_thumbs/ex_roi_extraction.png
+```
 ````
 
 ```{toctree}
