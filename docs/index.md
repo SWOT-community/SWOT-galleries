@@ -5,11 +5,11 @@
 ````{grid} 1 1 2 2
 :gutter: 2
 
-```{grid-item-card} CNES Gallery
+```{grid-item-card} Oceanography Gallery
 :link: cnes
 :link-type: doc
 
-Examples and notebooks related to CNES workflows.
+Oceanography-related analyses and examples.
 ```
 
 ```{grid-item-card} Hydrology Gallery
