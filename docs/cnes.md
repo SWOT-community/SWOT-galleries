@@ -18,9 +18,9 @@ Download a release:
 :gutter: 2
 
 ```{grid-item-card} Search Swot
-:link: SWOT-Oceanography/ex_search_swot
+:link: SWOT-Oceanography/ex_altimetry_search
 :link-type: doc
-:img-top: _static/images/oceanography/_thumbs/ex_search_swot.png
+:img-top: _static/images/oceanography/ex_altimetry_search.png
 ```
 
 ```{grid-item-card} Download Swot from AVISO
