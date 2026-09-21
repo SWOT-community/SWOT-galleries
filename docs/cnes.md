@@ -23,7 +23,7 @@ Download a release:
 :img-top: _static/images/oceanography/ex_altimetry_search.png
 ```
 
-```{grid-item-card} Download Swot from AVISO
+```{grid-item-card} Download and read Swot from AVISO
 :link: SWOT-Oceanography/ex_aviso_download_swot
 :link-type: doc
 :img-top: _static/images/oceanography/aviso.png
