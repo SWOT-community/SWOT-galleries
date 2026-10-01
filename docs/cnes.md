@@ -29,11 +29,6 @@ Download a release:
 :img-top: _static/images/oceanography/aviso.png
 ```
 
-```{grid-item-card} Region of Interest Extraction
-:link: SWOT-Oceanography/ex_roi_extraction
-:link-type: doc
-:img-top: _static/images/oceanography/_thumbs/ex_roi_extraction.png
-```
 ````
 
 ```{toctree}
@@ -44,7 +39,41 @@ SWOT-Oceanography/ex_aviso_download_swot
 ```
 
 ---
+## Extracting regions of interest
 
+
+````{grid} 1 1 3 4
+:gutter: 2
+
+```{grid-item-card} 2-km data
+:link: SWOT-Oceanography/ex_roi_extraction
+:link-type: doc
+:img-top: _static/images/oceanography/_thumbs/ex_roi_extraction.png
+```
+
+```{grid-item-card} L3 250-m data
+:link: SWOT-Oceanography/ex_subset_swot_l3_unsmoothed_aviso_tds
+:link-type: doc
+:img-top: _static/images/oceanography/_thumbs/ex_subset_swot_l3_unsmoothed_aviso_tds.png
+```
+
+```{grid-item-card} L2 250-m data
+:link: SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_tds
+:link-type: doc
+:img-top: _static/images/oceanography/_thumbs/ex_subset_swot_l2_unsmoothed_aviso_tds.png
+```
+
+````
+
+```{toctree}
+:hidden:
+
+SWOT-Oceanography/ex_roi_extraction
+SWOT-Oceanography/ex_subset_swot_l3_unsmoothed_aviso_tds
+SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_tds
+```
+
+---
 ## 2-km data
 
 ````{grid} 1 1 3 4
@@ -83,18 +112,6 @@ SWOT-Oceanography/ex_swot_l3_startup
 :img-top: _static/images/oceanography/_thumbs/ex_swot_l3_unsmoothed.png
 ```
 
-```{grid-item-card} Subset SWOT LR L3 Unsmoothed data from AVISO’s THREDDS Data Server
-:link: SWOT-Oceanography/ex_subset_swot_l3_unsmoothed_aviso_tds
-:link-type: doc
-:img-top: _static/images/oceanography/_thumbs/ex_subset_swot_l3_unsmoothed_aviso_tds.png
-```
-
-```{grid-item-card} Subset SWOT LR L2 Unsmoothed data from AVISO’s THREDDS Data Server
-:link: SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_tds
-:link-type: doc
-:img-top: _static/images/oceanography/_thumbs/ex_subset_swot_l2_unsmoothed_aviso_tds.png
-```
-
 ```{grid-item-card} Sea Ice Classification and local Leads/floes PDF analysis
 :link: SWOT-Oceanography/ex_sea_ice_classification
 :link-type: doc
@@ -106,8 +123,6 @@ SWOT-Oceanography/ex_swot_l3_startup
 :hidden:
 
 SWOT-Oceanography/ex_swot_l3_unsmoothed
-SWOT-Oceanography/ex_subset_swot_l3_unsmoothed_aviso_tds
-SWOT-Oceanography/ex_subset_swot_l2_unsmoothed_aviso_tds
 SWOT-Oceanography/ex_sea_ice_classification
 ```
 
