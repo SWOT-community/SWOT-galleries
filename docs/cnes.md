@@ -1,5 +1,6 @@
 # Swot Ocean Data Tutorials
 
+
 ```{admonition} Gallery Versions & Changelog
 :class: dropdown tip
 
@@ -10,6 +11,15 @@ Download a release:
 {{ oceanography_downloads }}
 
 📄 [Changelog](#changelog)
+```
+
+## Support
+
+```{button-link} mailto:aviso-swot@altimetry.fr
+:color: primary
+:outline:
+
+📧 aviso-swot@altimetry.fr
 ```
 
 ## Access to data
@@ -149,5 +159,40 @@ SWOT-Oceanography/ex_swot_l3_lr_ww_startup
 ```{image} aviso.png
 :class: hidden
 ```
+
+
+---
+
+## Podaac Notebooks
+
+
+````{grid} 1 1 3 4
+:gutter: 2
+
+```{grid-item-card} Download and Access L2 SWOT Oceanography Data
+:link: SWOT-Oceanography/ex_Localmachine_SWOT_L2_Ocean_podaac
+:link-type: doc
+:img-top: _static/images/oceanography/podaac.png
+```
+
+```{grid-item-card} Access SWOT L2 Oceanography Data in AWS Cloud
+:link: SWOT-Oceanography/ex_AWS_Cloud_SWOT_L2_Ocean_podaac
+:link-type: doc
+:img-top: _static/images/oceanography/podaac.png
+```
+
+```{grid-item-card} SWOT Quality Flag Demonstration
+:link: SWOT-Oceanography/ex_SWOT_quality_flag_demo
+:link-type: doc
+:img-top: _static/images/oceanography/podaac.png
+```
+````
+
+```{toctree}
+:hidden:
+
+SWOT-Oceanography/ex_swot_l3_lr_ww_startup
+```
+
 
 ```{include} SWOT-Oceanography/changelog.md
